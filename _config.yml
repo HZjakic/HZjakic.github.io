@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Hana's Academic Page"
 title_separator          : "-"
 name                     : &name "Hana Zjakic"
 description              : &description ""
