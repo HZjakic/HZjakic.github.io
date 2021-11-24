@@ -1,7 +1,7 @@
 ---
 title: "“Get fit!” – The use of imperatives in Australian English gym advertisements on Facebook"
 collection: publications
-permalink: /publication/The use of imperatives in Australian English gym advertisements on Facebook
+permalink:
 excerpt: ''
 date: 
 venue: 'Discourse, Context & Media'
