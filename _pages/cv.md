@@ -1,9 +1,8 @@
 ---
 layout: archive
-title: ""
+title: "CV"
 permalink: /cv/
 author_profile: true
-permalink: /:files/"HanaZjakic_CV_July2021.pdf/
 redirect_from:
   - /resume
 ---
@@ -11,4 +10,4 @@ redirect_from:
 {% include base_path %}
 
 CV (updated 24-Nov-2021)
-===
+======
