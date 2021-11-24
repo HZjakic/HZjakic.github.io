@@ -175,16 +175,13 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: false
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: false
+  conferences:
+    output: true
     permalink: /:collection/:path/
-  conference proceedings:
+  grants:
     output: true
     permalink: /:collection/:path/
 
@@ -209,15 +206,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: false
-      share: false
-      comments: false
   # _publications
   - scope:
       path: ""
@@ -227,21 +215,12 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _conferences
   - scope:
       path: ""
-      type: portfolio
+      type: conferences
     values:
-      layout: single
-      author_profile: false
-      share: false
-      comment: false
-  # _conference proceedings
-  - scope:
-      path: ""
-      type: conference proceedings
-    values:
-      layout: conference proceedings
+      layout: conferences
       author_profile: true
       share: true
 
