@@ -218,9 +218,9 @@ defaults:
   # _conferences
   - scope:
       path: ""
-      type: conferences
+      type: talks
     values:
-      layout: conferences
+      layout: talks
       author_profile: true
       share: true
 
