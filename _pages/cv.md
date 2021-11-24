@@ -9,3 +9,6 @@ redirect_from:
 ---
 
 {% include base_path %}
+
+CV (updated 24-Nov-2021)
+===
