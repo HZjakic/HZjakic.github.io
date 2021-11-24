@@ -178,9 +178,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  conferences:
+  talks:
     output: true
-    permalink: /:collection/:_talks/
+    permalink: /:collection/:path/
   grants:
     output: true
     permalink: /:collection/:path/
@@ -215,12 +215,12 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _conferences
+  # _talks
   - scope:
-      path: /:collection/:_talks/
-      type: _talks
+      path: ""
+      type: talks
     values:
-      layout: _talks
+      layout: talks
       author_profile: true
       share: true
 
