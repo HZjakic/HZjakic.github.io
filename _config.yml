@@ -180,7 +180,7 @@ collections:
     permalink: /:collection/:path/
   conferences:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:talks/
   grants:
     output: true
     permalink: /:collection/:path/
@@ -217,7 +217,7 @@ defaults:
       comments: true
   # _conferences
   - scope:
-      path: ""
+      path: /:collection/:talks/
       type: talks
     values:
       layout: talks
