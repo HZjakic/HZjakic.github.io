@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "CV(updated 2021-11-24)"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,7 +8,5 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-CV (updated 2021-11-24)
 ===
 
